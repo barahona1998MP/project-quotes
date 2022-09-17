@@ -1,0 +1,25 @@
+:root {
+    --fuente-principal: 'Signika', 'Poppins', sans-serif
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    margin: 0;
+    font-family: var(--fuente-principal)
+}
+
+p, h1, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
